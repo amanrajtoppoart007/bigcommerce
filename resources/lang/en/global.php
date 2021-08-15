@@ -313,7 +313,7 @@ return [
     'add_to_cart'                          => 'Add to Cart',
     'unit_not_available'                   => 'Unit not available',
     'date'                                 => 'Date',
-    'farmer'                                 => 'Farmer',
+    'farmer'                                 => 'User',
     'place_order'                                 => 'Place Order',
     'select_address'                                 => 'Select Address',
     'create_farmer_header' => 'Enter farmer details',
