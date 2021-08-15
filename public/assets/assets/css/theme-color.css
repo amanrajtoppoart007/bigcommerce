@@ -1,0 +1,59 @@
+*.bg-theme-1 {
+	background-color: #008000;
+}
+*.bg-theme-2 {
+	background-color: #38b000;
+}
+*.bg-theme-3 {
+	background-color: #ccff33;
+}
+
+*.text-theme-1 {
+	color: #008000;
+}
+*.text-theme-2 {
+	color: #38b000;
+}
+*.text-theme-3 {
+	color: #ccff33;
+}
+p.description-1 {
+	font-size: 14px;
+}
+p.description-2 {
+	font-size: 12px;
+}
+
+
+a.btn-theme-1,
+button.btn-theme-1 {
+	border-radius: 25px;
+	transition: 0.3s ease;
+	background-color: #38b000;
+	color: #fff;
+}
+a.btn-theme-1:hover,
+button.btn-theme-1:hover {
+	transition: 0.3s ease;
+	background-color: #008000;
+	color: #fff;
+}
+a.btn-theme-2,
+button.btn-theme-2 {
+	border-radius: 25px;
+	transition: 0.3s ease;
+	background-color: #fff;
+	color: #38b000;
+}
+a.btn-theme-2:hover,
+button.btn-theme-2:hover {
+	transition: 0.3s ease;
+	background-color: #008000;
+	color: #008000;
+}
+img.btn-icon {
+	height: 17px;
+	width: auto;
+	margin-top: -1.5px;
+	margin-left: 5px;
+}

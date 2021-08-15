@@ -1,0 +1,56 @@
+section#panjikaran-section {
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+section#panjikaran-section div.container {
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+div.panjikaran-card {
+	margin: 3%;
+	box-shadow: 0px 0px 7px rgba(0,0,0,0.2);
+	background-color: transparent;
+	position: relative;
+	transition: 0.3s ease;
+	z-index: 1;
+}	
+div.panjikaran-card::before {
+	content: " ";
+	height: 2%;
+	width: 0%;
+	background-color: #008000;
+	position: absolute;
+	z-index: -1;
+	bottom: 0%;
+	left: 50%;
+	transform: translate(-50%,-0%);
+	transition: 0.3s ease;
+	border-radius: 3px;
+}
+div.panjikaran-card::after {
+	content: " ";
+	height: 35%;
+	width: 100%;
+	background-color: #008000;
+	position: absolute;
+	z-index: -1;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%,-0%);
+	transition: 0.3s ease;
+}
+div.panjikaran-card:hover::before {
+	transition: 0.3s ease;
+	width: 100%;
+}
+div.panjikaran-card:hover {
+	transition: 0.3s ease;
+	transform: scale(1.1);
+}
+@media (max-width: 767px) {
+	section#panjikaran-section div.container {
+		padding-top: 20%;
+		padding-bottom: 5%;
+	}
+}

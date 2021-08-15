@@ -1,0 +1,29 @@
+section#registration-form-section {
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+section#registration-form-section div.container {
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+div.page-title {
+	position: relative;
+}
+div.page-title::after {
+	content: " ";
+	height: 100%;
+	width: 5px;
+	background-color: #008000;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+
+@media (max-width: 767px) {
+	section#registration-form-section div.container {
+		padding-top: 20%;
+		padding-bottom: 5%;
+	}
+}
